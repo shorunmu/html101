@@ -253,3 +253,45 @@ form label {
  color: #1E0E62;
 
 }
+.for-all {
+  display: flex;
+  margin: 30px 0 0;
+}
+.addidas-sneak img {
+  width: 80%;
+}
+.LeBron-txt h5, .LeBron-txt h2 {
+  color: #1E0E62;
+
+}
+.this-st-con{
+  margin: 40px 230px 0 0;
+}
+.img-prev,.buy-prs {
+  gap: 10px;
+  display: flex;  
+
+}
+
+.LeBron-txt p {
+  color: #15143966;
+  font-size: small;
+
+}
+.buy-btn {
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 7px 15px;
+  margin: 0 0 20px;
+  background-color: #482BE7;
+  color: #fff;
+  cursor: pointer;
+}
+.buy-prs {
+  margin: 40px 0 10px;
+}
+.buy-prs small {
+  margin-top: 8px;
+  color: #1E0E62;
+  cursor: pointer;
+}
