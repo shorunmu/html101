@@ -295,3 +295,66 @@ form label {
   color: #1E0E62;
   cursor: pointer;
 }
+.footer-srt {
+  display:flex;
+  background: #2F1893;
+  color: #fff;
+  padding:  60px 50px;
+  justify-content: space-around;
+}
+.unlisted  {
+  color: #FFFFFF;
+  list-style-type: none;
+
+}
+.unlisted li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.unlisted li {
+  padding: 8px 0 ;
+}
+.for-both-st {
+  display: flex;
+  cursor: pointer;
+  margin: 0 40px 0 0 ;
+}
+.s-footer{
+  padding: 0 80px 0 0;
+}
+form input[typ="email"] {
+  border-radius: 20px;
+  border: 0.1px solid #FFFFFF;
+  padding: 8px 20px;
+  background: #2F1893;
+  margin: 40px 0 110px;
+  color: #FFFFFF;
+}
+.sub-form button {
+  border-radius: 20px;
+  border: 0 solid;
+  padding: 8px 20px;
+  background-color: #25DAC5;
+  color: #FFFFFF;
+  cursor: pointer;
+
+}
+.term-poli small{
+  padding: 10px 20px 0 0;
+  cursor: pointer;
+}
+.fourth-footer button {
+  color: #FFFFFF;
+  background: #E93A7D;
+  border-radius: 20px;
+  border: none;
+  padding: 8px 20px;
+  margin: 30px 0px 20px 0px;
+  cursor: pointer;
+}
+.fourth-footer div {
+  padding: 1px 18px ;
+  font-size: small;
+  cursor: pointer;
+}
+
