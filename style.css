@@ -15,6 +15,10 @@ header {
     background-color: #2F1893 ;
     height: 80px;
 }
+menu {
+  display: none;
+  color: #fff;
+}
 
 nav ul {
     display: flex;
@@ -358,3 +362,90 @@ form input[typ="email"] {
   cursor: pointer;
 }
 
+@media screen and (max-width: 620px) {
+  header, nav ul, .signup-section, .content-description{
+    flex-direction: column;
+    padding: 0px 40px;
+  }
+  menu {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+    padding: 5px;
+  }
+  nav ul li {
+    margin-bottom: 0px;
+  }
+  .btn-signin, .btn-signup , nav {
+    display: none;
+  }
+  .form-section {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .content-section {
+    padding: 0 10px;
+  }
+  br {
+    display: none;
+  }
+  .both, .for-section, .for-all, .footer-srt {
+    flex-direction: column;
+    padding: 0 0;
+  }
+  .feature {
+    padding: 0px 20px 0px 20px;
+    margin: 0 0 0 0;
+  }
+  .phone-img img {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .img-mac img {
+    width: 80%;
+    margin-left: 75px;
+  }
+  .real-div {
+    margin: 40px 0px 40px 0px
+  }
+  .addidas-sneak img {
+    width: 100%;
+  }
+  .this-st-con{
+    margin: 40px 30px 0 0;
+  }
+  .img-prev {
+    gap: 6px;
+  }
+  .feature-xt h1 {
+    font-size: 27px;
+    padding: 0 10px 0 10px;
+  }
+  .s-footer{
+    padding: 0 0 0 0;
+  }
+  .footer-srt {
+    padding: 20px 15px 80px 30px;
+  }
+  .term-poli small,.fourth-footer div {
+    font-size: large;
+  }
+  form input[typ="email"] {
+    margin: 40px 0 60px;
+  }
+  .s-footer ul {
+    padding: 20px 20px 0 0;
+  }
+  .LeBron-txt, .buy-prs, .real-div{
+    padding: 0 20px 0 40px;
+  }
+  .signup-section {
+    margin: -1px 0 0;
+  }
+  .content h2 {
+    font-size: 20px;
+    padding: 0 20px 0 10px;
+  }
+}
